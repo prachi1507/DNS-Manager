@@ -1,0 +1,28 @@
+/* logo container */
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 250px;
+  gap: 0.5rem;
+}
+
+.logoContainer a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Hamburger {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0.4rem 0.4rem 0rem 0.4rem;
+}
+.Hamburger:hover {
+  background: rgb(104, 150, 236);
+  box-shadow: 1px 1px 10px 1px #729eb175;
+  border-radius: 50%;
+  cursor: pointer;
+}

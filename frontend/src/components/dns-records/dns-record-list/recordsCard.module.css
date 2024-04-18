@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  background-color: rgb(174, 247, 213);
+}
+
+.cell {
+  flex: 0 0 auto;
+  padding: 8px;
+  border: 1px solid #cad2d7;
+  text-align: center;
+
+  color: #312828;
+}
+.cellRight {
+  flex: 0 0 auto;
+  padding: 8px;
+  border: 1px solid #cad2d7;
+  text-align: center;
+  color: #312828;
+  width: 65%;
+}
+
+.btn{
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 1px 1px 15px 1px #b8a4a4;
+}
+
+.btn:first-child{
+  background-color: #f84040;
+  color: white;
+}
+.btn:last-child{
+  background-color: #18b92e;
+  color: white;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}
