@@ -1,5 +1,5 @@
 .container {
-  background-color: #2699fa;
+  background-color: F3D0D7;
   height: 100vh;
   padding-top: 100px;
 }
@@ -43,7 +43,7 @@
   margin: 1rem 0;
   padding: 1rem 0;
   border-radius: 8px;
-  background-color: #2699fa;
+  background-color:transparent ;
   border: none;
   color: #ffffff;
 }
@@ -71,7 +71,7 @@
   justify-content: start;
   gap: 0.5rem;
   margin-top: 0.3rem;
-  color: #fff7fc;
+  color: #131212;
 }
 .secondContainer > p {
   display: flex;
@@ -79,7 +79,7 @@
   align-items: center;
   gap: 0.5rem;
   margin-top: 0.3rem;
-  color: #fff7fc;
+  color: #1a1819;
 }
 
 .headings {
