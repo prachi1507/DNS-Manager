@@ -6,7 +6,7 @@ const URL = import.meta.env.VITE_API_URI || '';
 
 function DnsCreateSingle({ handleActiveMethods, HostedZoneId }) {
   const { setNeedReload } = useContext(DnsContext);
-  {/* "Name": "ipv7.loveyou.com.",
+  {/* "Name": "ipv7.prachicodenova.com.",
         "Type": "AAAA",
         "TTL": 3600,
         "ResourceRecords": [

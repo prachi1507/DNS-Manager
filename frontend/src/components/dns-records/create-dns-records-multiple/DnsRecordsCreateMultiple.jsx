@@ -81,7 +81,7 @@ function DnsRecordsCreateMultiple({ handleActiveMethods, HostedZoneId }) {
                   // please  Enter your Valid dns Records here in following format
                                 [
                                     {
-                                        "Name": "ipv7.loveyou.com.",
+                                        "Name": "ipv7.coderworld.com.",
                                         "Type": "AAAA",
                                         "TTL": 3600,
                                         "ResourceRecords": [
@@ -91,7 +91,7 @@ function DnsRecordsCreateMultiple({ handleActiveMethods, HostedZoneId }) {
                                         ]
                                      },
                                      {
-                                        "Name": "ipv.loveyou.com.",
+                                        "Name": "ipv.myteam.com.",
                                         "Type": "AAAA",
                                         "TTL": 3600,
                                         "ResourceRecords": [
