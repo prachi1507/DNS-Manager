@@ -1,9 +1,4 @@
 
-
-# Frontend
-
-![welcome image](./readmeImages/welcome.png)
-![home](./readmeImages/home.png)
 ### React 
 
 
@@ -60,10 +55,10 @@ Body
 ```
   [ 
     {
-        "Name":"loveyou.com"
+        "Name":"prachicodenova.com"
     },
     {
-        "Name": "domain30.com"
+        "Name": "prachicoder.com"
     },
     {
         "Name": "domain31.com"
@@ -91,7 +86,7 @@ create
 https://dns-manager-1-b1ij.onrender.com/api/v1/dns-records/create-multi
 
  {
-    "Name": "ipv7.loveyou.com.",
+    "Name": "ipv7.codenova.com.",
     "Type": "AAAA",
     "TTL": 3600,
     "ResourceRecords": [
@@ -113,7 +108,7 @@ https://dns-manager-1-b1ij.onrender.com/api/v1/dns-records/update
 
 [  
     {
-            "Name": "loveyou.com.",
+            "Name": "prachicodenova.com.",
             "Type": "A",
             "TTL": 800,
             "ResourceRecords": [
