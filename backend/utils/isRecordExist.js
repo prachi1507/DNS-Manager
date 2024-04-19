@@ -1,8 +1,7 @@
 import { ListResourceRecordSetsCommand } from '@aws-sdk/client-route-53';
-import { HostedZoneId } from '../config/config.js';
 import client from '../services/aws-sdk-route53.js';
 
-export const listExistingRecords = async (name, type) => {
+export const isRecordExist= async (name, type,HostedZoneId) => {
   const params = {
     HostedZoneId,
     MaxItems: '1',

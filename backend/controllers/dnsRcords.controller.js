@@ -3,8 +3,8 @@ import {
   ChangeResourceRecordSetsCommand,
   ListResourceRecordSetsCommand,
 } from '@aws-sdk/client-route-53';
-import { HostedZoneId, defaultTTL } from '../config/config.js';
-import { listExistingRecords } from '../utils/isRecordExist.js';
+import {  defaultTTL } from '../config/config.js';
+import { isRecordExist } from '../utils/isRecordExist.js';
 import { getAllDNSRecords } from './dns/getAllDNSRecords.controller.js';
 import { createMultiDNSRecords } from './dns/createMultiDNSRecords.controller.js';
 import { createOneDNSRecords } from './dns/createOneDNSRecords.controller.js';
@@ -87,8 +87,8 @@ export const deleteDNSRecordHandler = async (req, res) => {
       res,
       client,
       ChangeResourceRecordSetsCommand,
-      HostedZoneId,
-      listExistingRecords,
+     
+      isRecordExist,
     );
   } catch (error) {
     res.status(500).json({ error: 'Server Error deleting DNS records' });

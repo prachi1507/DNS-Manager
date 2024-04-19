@@ -5,15 +5,16 @@ export const deleteDNSRecord = async (
   res,
   client,
   ChangeResourceRecordSetsCommand,
-  HostedZoneId,
-  listExistingRecords,
+  isRecordExist,
 ) => {
   const dnsRecords = req.body;
   try {
+    const {HostedZoneId } = req.query;
     for (const record of dnsRecords) {
-      const existingRecords = await listExistingRecords(
+      const existingRecords = await isRecordExist(
         record.Name,
         record.Type,
+        HostedZoneId
       );
       if (existingRecords.length > 0) {
         // Delete existing record
